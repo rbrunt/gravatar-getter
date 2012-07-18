@@ -4,6 +4,7 @@
 </head>
 <body>
 <?php
+	include 'ribbon.php';
 	$email = $_POST['email'];
 	if($_POST['size']!=""){
 		$size = $_POST['size'];
