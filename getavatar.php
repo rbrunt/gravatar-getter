@@ -1,3 +1,4 @@
+
 <html>
 <head>
 	<title>Your (Gr)avatar:</title>
@@ -16,7 +17,7 @@
 	echo "
 		<p>Hi there ".$email."! Here's your picture!:</p><br>
 		<img src=\"http://gravatar.com/avatar/".$hash."?s=".$size."&d=mm\">
-		<p>Click <a href=\"http://gravatar.com/".$hash."/\"here</a> to go to their profile</p>
+		<p>Click <a href=\"http://gravatar.com/".$hash."/\">here</a> to go to their profile</p>
 	";
 ?>
 
